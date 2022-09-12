@@ -9,3 +9,6 @@
 
 //numFactorial() calculates the factorial of a number
 int numFactorial(int num);
+
+//numPrime() determines if a number is prime
+int isPrime(int num);

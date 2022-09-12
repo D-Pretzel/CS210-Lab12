@@ -14,7 +14,7 @@ int main() {
     int num;
     printf("Give me an integer: ");
     //Get integer from user
-    scanf("%d", &num);
+    scanf("%i", &num);
     printf("The factorial of %i is %d.\n", num, numFactorial(num));
     return 0;
 }
