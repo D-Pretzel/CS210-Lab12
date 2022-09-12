@@ -9,3 +9,9 @@
 
 //numFactorial() calculates the factorial of a number
 int numFactorial(int num);
+
+//numPrime() determines if a number is prime
+int isPrime(int num);
+
+//floydTriangle() prints a Floyd's triangle of a given size
+void floydTriangle(int size);
