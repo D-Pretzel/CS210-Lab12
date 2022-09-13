@@ -7,6 +7,8 @@
  *          could be multiple lines
  * =========================================================== */
 
+#include <stdio.h>
+
 //numFactorial() calculates the factorial of a number
 int numFactorial(int num);
 

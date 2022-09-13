@@ -11,6 +11,9 @@
 #include "lab12functs.h"
 
 int main() {
-
+    printf("Give me an integer: ");
+    int num;
+    scanf("%d", &num);
+    floydTriangle(num);
     return 0;
 }
