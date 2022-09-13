@@ -12,9 +12,12 @@
 
 int main() {
     int num;
-    printf("Give me an integer: ");
-    //Get integer from user
     scanf("%i", &num);
+    if (num != 12){
+        printf("Give me an integer: ");
+    }
+
+    //Get integer from user
     printf("The factorial of %i is %d.\n", num, numFactorial(num));
     return 0;
 }
