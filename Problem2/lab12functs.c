@@ -17,10 +17,12 @@ int numFactorial(int num) {
 }
 
 int isPrime(int num) {
-    int prime = 1;
-    for (int i = 2; i < num; i++) {
+    int prime;
+    for (int i = 2; i < num; i++) { //We have to start i at 2 because 1 is a factor of every number
         if (num % i == 0) {
-            prime = 0;
+            prime = 0;  // not prime
+        } else {
+            prime = 1;  // prime
         }
     }
     return prime;
